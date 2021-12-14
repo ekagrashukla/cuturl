@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 const shortUrlSchema = new Schema({
     type: {
         type: Schema.Types.String,
-        required: true
+        // required: true
     },
     type_id: {
         type: Schema.Types.String
