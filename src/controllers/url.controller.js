@@ -28,7 +28,7 @@ const shorturl = async (req,res) => {
             const result = await shortUrl.save()
             res.send("Short URL created successfully ==> http://localhost:3000/"+result.short_url)
         }
-    } catch (error) {
+    } catch (error) { 
         res.send(error)
     }
 }
